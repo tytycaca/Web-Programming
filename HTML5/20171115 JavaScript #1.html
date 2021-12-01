@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+		<meta charset="utf-8"/>
+		<title>자바스크립트 예제</title>
+		<script>
+			var name="이지혁";
+			alert("정승훈 나무위키 꺼라");
+			//자바스크립트에서 함수는 선언 전에 call 할 수 있지만
+			//(함수를 사용하기 전에 미리 스캔해서 라이브러리에 저장하기 때문.)
+			//변수는 미리 선언한 후에 써야한다.
+			my_function();
+			function my_function(){
+				document.write("hello world "+name);
+			}
+			document.write("<br>asdf "+name+"<br>");
+		</script>
+	</head>
+	
+	<body>
+		
+		<script>
+			var name2="이지혁";
+			alert("정승훈 히토미 꺼라");
+			document.write("hello world2: "+name2+"<br>");
+		</script>
+		<button onclick = "alert('정승훈 페그오 꺼라')"> ㅇㅇ</button>
+		<button onclick="document.write('개돼지')">자바스크립트 alert</button>
+		<button onclick="my_function()">자바스크립트 alert</button>
+		
+	</body>
+	
+</html>

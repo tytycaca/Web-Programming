@@ -1,0 +1,158 @@
+.content{
+
+    display: inline-block;
+    width: 80%;
+
+}
+
+h3, h4{
+
+    display: block !important;  
+    background-color: rgba(207, 216, 220, 0.9) !important;
+    padding-top: 18px;
+    padding-left: 5px;
+    padding-bottom: 18px;
+    margin-top: 0px;
+    border-radius: 10px;
+
+}
+
+.container{
+
+    margin-right: 20px;
+    margin-bottom: 5px;
+    background-color: rgba(207, 216, 220, 0.7);
+    border-radius: 10px;
+
+}
+
+.flex_wrap{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0;
+
+}
+
+.chart{
+    display: inline-block;
+    background-color: rgba(207, 216, 220, 0.9);
+    border-collapse: collapse;
+    border-radius: 10px;
+    border-color: rgb(98, 98, 99);
+}
+
+.chart_img_align{
+    
+        display: inline-block;
+        vertical-align: middle;
+    
+    }
+
+.chart .table_item{
+
+    background-color:#E6E6E6;
+    width:80px;
+    text-align:center;
+    border-radius: 10px;
+
+}
+
+.chart p{
+
+    margin: 5px;
+
+}
+
+.graph ul{
+
+    margin:150px 50px 0 65px;
+    padding:1px 0 0 0;
+    border:1px solid rgb(196, 194, 194);
+    border-top:0;
+    border-right:0;
+    font-size:11px;
+    font-family:Tahoma, Geneva, sans-serif;
+    list-style:none;
+    width: 180px;
+
+}
+
+.graph li{
+
+    position:relative;
+    margin:20px 0;
+    white-space:nowrap;
+    vertical-align:top;
+
+}
+
+.graph .term{
+
+    position:absolute;
+    width:40px;
+    top:0;
+    left:-60px;
+    line-height:20px;
+    text-align:right;
+    color:#767676;
+    font-weight:bold;
+
+}
+
+.graph .bar{
+
+    position:relative;
+    display:inline-block;
+    height:25px;
+    border:1px solid #ccc;
+    border-left:0;
+    background:#e9e9e9;
+
+}
+
+.graph .bar span{
+
+    position:absolute; 
+    width:40px; 
+    line-height:20px; 
+    top:0; 
+    right:-50px; 
+    color:#767676;
+
+}
+
+.remote{
+
+    position: fixed;
+    right: 0px;
+    margin-top: 98.72px;
+    margin-right: 20px;
+    display: inline-block;
+    width: 240px;
+    height: 700px;
+    background-color: rgba(207, 216, 220, 0.9);
+    border-radius: 10px;
+
+}
+
+.remote li{
+
+    margin: 2px 2px;
+
+}
+
+.remote a{
+
+    text-decoration: none;
+    color: black;
+
+}
+
+.remote a:hover{
+
+    color: blue;
+
+}
