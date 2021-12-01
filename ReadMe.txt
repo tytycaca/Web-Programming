@@ -1,1 +1,1 @@
-Web Programming FinalProject 폴더 안에 있는 Home.html 파일을 실행하시면 홈페이지 메인이 나옵니다.
+Web Programming FinalProject 폴더 안에 있는 Home.html 파일을 실행하시면 웹페이지 메인이 나옵니다.
